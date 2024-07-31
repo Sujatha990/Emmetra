@@ -1,13 +1,16 @@
 import React from 'react';
+import Image from 'next/image';
 
 const Side = () => {
   return (
     <div>
-      <img
-        src="Images/emmetrasideimg.png"
-        className="img-fluid"
+      <Image
+        src="/Images/emmetrasideimg.png" // Ensure the path is correct for your project structure
         alt="Wild Landscape"
-        style={{ height: '550px' }} // Adjust the height as needed
+        layout="responsive" // Automatically adjusts the image size based on the container
+        width={800} // Adjust width as needed
+        height={550} // Adjust height as needed
+        style={{ objectFit: 'cover' }} // Ensures the image covers the container without distortion
       />
     </div>
   );

@@ -9,7 +9,7 @@ const Overview = () => {
         Company Overview
       </h2>
       <p style={{ textAlign: "center" }}>
-        Exploring Emmetra Technology's Embedded Camera Solutions.
+        Exploring Emmetra Technology&apos;s Embedded Camera Solutions.
       </p>
 
       <div className="container success-stories">

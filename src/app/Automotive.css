@@ -1,0 +1,38 @@
+/* Center the content within the container */
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  /* Style the title */
+  .title {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  /* Style the figure */
+  .figure {
+    margin: 0;
+    max-width: 100%;
+  }
+  
+  /* Resize the image with specific width and height */
+  .figure-img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%; /* Adjust width as needed */
+    height: 500px; /* Adjust height as needed */
+    object-fit: cover; /* Ensures the image covers the area, might crop */
+  }
+  
+  /* Style the figcaption */
+  .figure-caption {
+    font-size: 1rem;
+    color: #666;
+    margin-top: 30px;
+  }
+  

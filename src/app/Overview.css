@@ -1,0 +1,74 @@
+/* Overview.css */
+
+.display-4 {
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #333;
+  text-align: center;
+  margin-top: 20px;
+}
+
+p {
+  font-size: 1.1rem;
+  color: #555;
+  text-align: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.success-stories {
+  margin-top: 30px;
+}
+
+.story {
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+  text-align: center;
+  background-color: #fff;
+  padding: 20px;
+}
+
+.story img {
+  width: 80px; /* Adjust size as needed */
+  height: 80px; /* Ensure width and height are equal for a perfect circle */
+  border-radius: 50%; /* This makes the image round */
+  object-fit: cover; /* Ensures the image covers the circle without distortion */
+  margin-bottom: 10px; /* Space between image and text */
+}
+
+.story-content h4 {
+  font-size: 1.5rem;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.story-content p {
+  font-size: 1rem;
+  color: #666;
+}
+
+@media (max-width: 768px) {
+  .col-md-3 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+@media (min-width: 768px) {
+  .row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -10px;
+  }
+  
+  .col-md-3 {
+    padding: 10px;
+  }
+}

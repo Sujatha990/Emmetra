@@ -1,0 +1,57 @@
+/* Existing CSS */
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.about-us {
+    text-align: center;
+}
+
+.display-2 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+
+}
+
+.display-6 {
+    font-size: 1.5rem;
+    margin-bottom: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.reverse-row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.col-md-6 {
+    flex: 0 0 50%;
+    max-width: 50%;
+}
+
+.image-container, .text-container {
+    padding: 10px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Updated CSS for Image Height and Width */
+.service-image {
+    height: 1000px; /* Adjust the height as needed */
+    width: auto; /* Keep the width auto to maintain aspect ratio */
+    max-width: 80%; /* Adjust the width percentage as needed */
+    object-fit: cover; /* Ensures the image covers the container */
+}
